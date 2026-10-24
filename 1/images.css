@@ -1,0 +1,16 @@
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.image-box {
+    position: relative;
+    
+}
+
+img{
+  border-radius: 100%;  
+}
+

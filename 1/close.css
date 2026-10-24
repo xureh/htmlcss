@@ -1,0 +1,30 @@
+.box{
+    background-color: grey;
+    position: fixed;
+    width: 320px;
+    height: 180px;
+    margin: 50px 150px;
+}
+
+.close-button{
+    position: absolute;
+    top: -10px;
+    left: -10px;
+}
+
+.close-button button{
+    border-radius: 100%;
+    padding: 5px 10px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+.timestamp{
+    position: absolute;
+    background-color: black;
+    color: white;
+    padding: 3px;
+    bottom: 5px;
+    right: 5px;
+}

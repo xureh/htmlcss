@@ -1,0 +1,108 @@
+.search-bar{
+    width: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+    border-style: solid;
+    margin-left: 10px;
+    border-width: 1px;
+    border-color: lightgrey; 
+    color: grey; 
+    font-family: Roboto, Arial;
+}
+
+.search-bar2{
+    width: 400px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: grey;
+    font-family: Roboto, Arial;
+    border-style: none;
+    box-shadow: 1px 1px 10px rgb(190, 190, 190);
+}
+
+.linkedin-signup{
+    color: grey;
+    font-family: Roboto, Arial;
+    font-size: 14px;
+}
+
+.signup-box{
+    border-style: solid;
+    height: 30px;
+    width: 350px;
+    border-radius: 10px;
+    border-color: grey;
+}
+
+.agreeandjoin-button{
+    background-color: rgb(57, 57, 255);
+    border: none;
+    border-radius: 50px;
+    width: 350px;
+    height: 50px;
+    color: white;
+    font-size: 14px;   
+    transition: background-color 0.15s;
+}
+
+.agreeandjoin-button:hover{
+    background-color: rgb(47, 47, 194);
+}
+
+.agreeandjoin-button:active{
+    opacity: 0.9;
+}
+
+.twitter-box{
+    position: relative;
+    width: 350px;
+    height: 30px;
+    margin-top: 10px;
+    font-family: Roboto, Arial;
+}
+
+.twitter-box img{
+    position: absolute;
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+    border-style: none;
+    color:grey;
+    margin-top: 3px;
+}
+
+.tweet{ 
+    height: 40px;
+    width: 250px;
+    padding-left: 50px;
+    border-radius: 100px;
+    border-style: none;
+    color:grey;
+    font-size: 14px;
+}
+
+.tweet-button{
+    position: absolute;
+    margin-top: 5px;
+    background-color: rgb(63, 151, 233);
+    border-style: none;
+    border-radius: 50px;
+    color: white;
+    width: 60px;
+    height: 30px;
+    transition: background-color 0.15s;
+}
+
+.tweet-button:hover{
+    background-color: rgb(51, 119, 184);
+}
+
+.tweet-button:active{
+    opacity: 0.9;
+}

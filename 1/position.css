@@ -1,0 +1,36 @@
+.top-container{
+    position: relative;
+    display: inline-block;
+    margin-left: 19px;
+}
+
+.top-container img{
+    height: 350px;
+    width: 250px;
+}
+
+.discount{
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    background-color: black;
+    color: white;
+    padding: 4px 10px 4px 6px;
+}
+
+.add-to-cart-container{
+    background-color: rgba(241, 241, 238, 0.603);
+    position: absolute;
+    width: 250px;
+    height: 100px;
+    bottom: 0;
+    
+}
+
+.add-to-cart-button{
+    position: absolute;
+    width: 100px;
+    padding: 8px 5px;
+    left: 70px;
+    bottom: 35px;   
+}

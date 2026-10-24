@@ -1,0 +1,41 @@
+.grid{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    column-gap: 10px;
+    
+    
+
+    font-family: Roboto, Arial;
+    font-size: 12px;
+}
+
+.oliver, .mimi,  .rex{
+    border-style: none;
+    height: 300px;
+    box-shadow: 1px 1px 10px rgba(71, 68, 68, 0.63);
+   
+
+}
+
+.dog{
+    border-radius: 50px;
+
+}
+
+p{
+    
+}
+
+h1{
+    
+}
+
+button{
+    background-color: rgb(69, 129, 241);
+    color: white;
+    height: 40px;
+    width: 100px;
+    border-style: none;
+    border-radius: 5px;
+    
+}

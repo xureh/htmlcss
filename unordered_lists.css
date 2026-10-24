@@ -1,0 +1,391 @@
+body{
+    background-color: black;
+    font-family: Roboto, Arial;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 100px;
+    top: 0px;
+    color: white;
+    font-family: Roboto, Arial;
+}
+
+.northflow{
+    font-size: 40px;
+    margin-left: 80px;
+    text-decoration: none;
+    color: white;
+}
+
+.northflow:hover{
+    cursor: pointer;
+}
+
+.northflow span{
+    color: rgb(108, 62, 233);
+}
+
+.list-items-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 80px;
+    width: 40%;
+}
+
+.list-item{
+    list-style: none;
+    padding: 10px;
+    transition: text-decoration 0.15s;
+}
+
+.list-item:hover{
+    text-decoration: line-through;
+    cursor: pointer;
+}
+
+.list-item a{
+    text-decoration: none;
+    color: white;
+}
+
+.simple{
+    padding-top: 200px;
+    color: white;
+    font-family: Roboto, Arial;
+}
+
+
+.text{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 90px;
+    font-size: 65px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+}
+
+.text1 span{
+    text-decoration: line-through;
+    color: rgb(108, 62, 233);
+}
+
+.text2{
+    margin-top: 100px;
+    font-size: 20px;
+    width: 340px;
+    
+    color: grey;
+}
+
+.text2 span{
+    color: white;
+}
+
+.text2 button{
+    background-color: grey;
+    color: white;
+    border-style: none;
+    border-radius: 10px;
+    width: 250px;
+    height: 60px;
+    margin-top: 20px;
+    font-size: 16px;
+    transition: background-coolor 0.15s;
+}
+
+.text2 button:hover{
+    background-color: white;
+}
+
+
+.image{
+ display: flex;
+ justify-content: center;
+ position: relative;
+}
+
+.black{
+    position: absolute;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 150px;
+    bottom: -50px;
+    width: 240px;
+    height: 100px;
+    border-radius: 10px;
+
+}
+
+.white{
+    position: absolute;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 80px;
+    border-radius: 10px;
+}
+
+.white button{
+    position: absolute;
+    left: 20px;
+    border-style: none;
+    background-color: rgb(108, 62, 233);
+    width: 70px;
+    height: 50px;
+    border-radius: 10px;
+    transition: background-color 0.15s;
+}
+
+.white button:hover{
+    background-color: rgb(112, 89, 196);
+}
+
+
+.white p{
+    color: black;
+    font-size: 12px;
+    font-weight: 700;
+    padding-left: 100px;
+}
+
+.instant{
+    padding-top: 200px;
+    color: white;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.instant h3{
+    font-size: 50px;
+    width: 400px;
+}
+
+.grid h3{
+    font-size: 30px;
+}
+
+.grid{
+    padding-top: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+}
+
+.grid p{
+    padding-bottom: 50px;
+}
+
+
+.bullet-point{
+    padding-bottom: 10px;
+}
+
+.purple{
+    background-color: rgb(117, 77, 228);
+    height: 700px;
+    margin-bottom: 500px;
+}
+
+.grid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+    margin-right: 90px;
+}
+
+/* space in between lines of text?? */
+
+.black-box{
+    align-items: center;
+    background-color: black;
+    height: 850px;
+    width: 725px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-top: 150px;
+    margin-top: 100px;
+}
+
+.black-box img{
+    height: 700px;
+}
+
+.smiling{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.lets{
+    color: white;
+    padding-top: 100px;
+}
+
+.lets h3{
+    font-size: 50px;
+    width: 400px;
+}
+
+.lets p{
+    padding-bottom: 20px;
+}
+
+/* .email-box{
+} */
+
+.email{
+    border-style: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: black;
+    color: white;
+    width: 400px;
+    height: 60px;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+/* placeholder not turning white?? */
+
+.email-box button{
+    position: absolute;
+    border-style: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    width: 50px;
+    height: 62px;
+
+    background-color: rgb(46, 46, 46);
+}
+
+.email-box button:hover{
+    background-color: rgb(130, 97, 248);
+}
+
+.emax{
+    font-size: 20px;
+}
+
+.grid3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 100px;
+    color: white;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.purple-box{
+    height: 600px;
+    width: 600px;
+    background-color: rgb(130, 97, 248);
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.purple-box img{
+    position: relative;
+    height: 500px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.purple-box button{
+    position: absolute;
+    margin-top: 400px;
+    background-color: rgb(130, 97, 248);
+    border-radius: 10px;
+    border-style: none;
+    color: white;
+    font-size: 16px;
+    height: 50px;
+    width: 200px;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex p{
+    width: 350px;
+    font-size: 25px;
+}
+
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(80, 79, 79);
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.flex-box{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 60px;
+    background-color: rgb(78, 78, 78);
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-top: 20px;
+
+    color: rgb(130, 97, 248);
+}
+
+.grid4{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    color: white;
+}
+
+.reviews{
+    color: white;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding-top: 100px;
+}
+
+.reviews h3{
+    font-size: 60px;
+    width: 500px;
+}
+
+.review{
+    background-color: rgb(46, 46, 46);
+    border-radius: 10px;
+    padding-left: 30px;
+    width: 650px;
+    height: 400px;
+}
+
+.review p{
+    width: 550px;
+    height: 100px;
+}
+
+.review2{
+    background-color: rgb(46, 46, 46);
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 10px;
+    width: 400px;
+    height: 400px;
+}
